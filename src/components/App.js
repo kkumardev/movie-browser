@@ -23,7 +23,7 @@ class App extends React.Component {
   }
 
   onMovie = (title) => {
-    return axios.get('http://www.omdbapi.com/?t=' + title.split(' ').join('+') + '&y=&plot=full&r=json');
+    return axios.get('https://www.omdbapi.com/?t=' + title.split(' ').join('+') + '&y=&plot=full&r=json');
   }
 
   onSubmit = (e) => {
