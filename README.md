@@ -6,7 +6,7 @@ The application demonstrates a react application using OMDB Api to grab movie in
 The project being a node.js application, dependencies are managed via npm.
 
 ```bash
-cd kiran-test && npm install
+cd movie-browser && npm install
 ```
 
 ## Run
